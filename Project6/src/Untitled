@@ -1,0 +1,34 @@
+
+
+
+public class VideoPoker {
+
+    /** random game */
+    public static final int RANDOM_GAME = -1;
+    /** number of cards in a hand */
+    public static final int CARDS_IN_HAND = 5;
+    /** number of points that the player has when the game begins */
+    public static final int STARTING_POINTS = 100;
+    /**  number of points needed to play a new game */
+    public static final int POINTS_FOR_NEW_GAME = 10;
+    /** Royal Flush */
+    public static final int ROYAL_FLUSH = 100;
+    /** Straight Flush */
+    public static final int STRAIGHT_FLUSH = 60;
+    /** Four of a Kind */
+    public static final int FOUR_OF_A_KIND = 50;
+    /** Full House */
+    public static final int FULL_HOUSE = 40;
+    /** Flush */
+    public static final int FLUSH = 30;
+    /** Straight */
+    public static final int STRAIGHT = 25;
+    /** Three of a Kind */
+    public static final int THREE_OF_A_KIND = 15;
+    /** Two Pairs */
+    public static final int TWO_PAIRS = 10;
+    /** One Pair */
+    public static final int ONE_PAIR = 7;
+
+
+}
